@@ -1,0 +1,542 @@
+*{
+    margin: 0%;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: cornflowerblue; 
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+    
+  }
+
+  .nav-header .nav-title img{
+    width: 45px;
+    
+   
+  }
+  
+  .nav > .nav-header > .nav-title {   
+   display: inline-block;
+    font-size: 20px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+  }
+  
+ 
+
+ 
+  
+  .nav > .nav-btn {
+    display: none;
+  
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+
+
+
+
+.hero {
+background-color: #ccc;
+display: flex;
+flex-direction:row;
+align-items: center;
+  justify-content: center;
+  height: 500px;
+  position: relative;
+}
+
+.hero_img img {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(40%); }
+
+    .hero_txt {
+        z-index: 1;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        filter: brightness(60%);
+    }
+
+    .hero_txt h1{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:xx-large;
+        margin: 10px 0;
+  text-align: center
+    }
+
+    .hero_txt p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 10px 0;
+  text-align: center
+    }
+
+    .hero_txt button {
+background-color: white;
+color: black;
+font-size: 15px;
+padding: 10px 20px;
+border: none;
+ text-align: center
+    }
+
+  
+    .cards_txt {
+        background-color: white;
+        text-align: center;
+        justify-content: center;
+        padding: 2% 10%;
+        transition: transform 0.2s;
+        
+    }
+
+    .cards_txt h1:hover{
+        transform: scale(1.2);
+    }
+   
+.cards_p{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+    .card {    
+        
+        width: 100%;
+        margin: 5%;
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    }
+
+    .card img{
+        width: 150px;
+        height: 200px;
+        border-radius: 70%;
+        transition: transform 0.2;
+    }
+
+    .card img:hover{
+        transform: scale(1.1);
+    }
+
+    .card h3 {
+        margin: 3px 0;
+        text-align: center;
+        
+    }
+    .card p{
+ margin: 3px 0;
+  text-align: center;
+    }
+
+    .card button{
+       
+        margin: 3px 0;
+        text-align: center;
+    }
+
+    .galery{
+        background-color: #ccc;
+        
+       
+    }
+
+    .galery_txt { 
+        background-color: white;
+        text-align: center;
+        padding: 2% 10%;
+        
+    }
+
+    .galery_txt h1{
+        transition: transform 0.2;
+    }
+    .galery_txt h1:hover{
+        transform: scale(1.5);
+    }
+     
+    .fila {
+        background-color: #ccc;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+   .fila img{
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius:0px;
+        box-shadow: 5px 2px 37px -11px rgba(0, 0, 0, 0.38);
+        -webkit-box-shadow: 5px 2px 37px -11px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 5px 2px 37px -11px rgba(0, 0, 0, 0.38);
+        cursor: pointer;
+        filter: brightness(40%);
+        transition: transform 0.2;
+        -webkit-transition: transform 0.2;
+        -moz-transition: transform 0.2;
+        -o-transition:transform 0.2;
+        -ms-transition: transform 0.2;
+    }
+        
+    .fila img:hover{
+        filter:brightness(100%);
+        transform: scale(1.1);
+    }
+    
+    .form_txt {
+        background-color: white;
+        text-align: center;
+        padding: 2% 10%;
+    }
+
+    .form_txt h1{
+        transition: transform 0.2;
+    }
+    .form_txt h1:hover{
+    transform: scale(1.5);
+    }
+
+  .form{
+        background-color: #ccc;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        }
+
+     .formulario{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 30px}
+
+        .formulario h3{
+            margin-bottom: 10px;}
+
+     .formulario label{
+       width: 100%;
+       margin-bottom: 5px; }
+
+     .formulario input{
+        width: 100%;
+        margin-bottom: 5px; }
+
+     .formulario select{
+        width: 100%;
+        margin-bottom: 5px; }
+        
+    .formulario textarea {
+        width: 100%;
+        margin-bottom: 5px;}
+
+     .formulario button{
+        width: 30%;
+        margin-bottom: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+}
+.mapa {
+    display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin:30px;
+    }
+    .mapa h3{
+        margin-bottom: 30px;
+    }
+.mapa iframe{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactos h3{
+    margin-bottom: 5px;}
+
+footer {
+    height: 100px;
+    background-color:cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+    
+footer p{
+    color: white;
+    font-size:small;
+}
+
+footer i{
+font-size: 30px;
+color:white;
+margin-right: 10px;}
+
+
+  @media only screen and (max-width: 720px) {
+
+    .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+      .nav > .nav-btn > label:hover,
+      .nav #nav-check:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+      }
+      .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+      }
+
+.cards_txt {
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+    
+       
+.cards_p{
+width: 100%;
+display: flex;
+flex-direction: column; 
+ text-align: center;
+    }
+
+    .galery_txt { 
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+        }
+
+    .fila {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+         text-align: center;
+            }
+    
+    .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+                
+        
+        
+    .formulario{
+    width: 80%;
+    display: flex;
+    flex-direction: column; }
+            
+        
+.mapa {
+width: 80%;
+display: flex;
+flex-direction: column;
+            }
+
+
+        .mapa iframe {
+            width: 100%;}
+        }
+            
+
+    @media only screen and (max-width: 350px) {
+
+        .nav > .nav-btn {
+            display: inline-block;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+          }
+          .nav > .nav-btn > label {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            padding: 13px;
+          }
+          .nav > .nav-btn > label:hover,
+          .nav #nav-check:checked ~ .nav-btn > label {
+            background-color: rgba(0, 0, 0, 0.3);
+          }
+          .nav > .nav-btn > label > span {
+            display: block;
+            width: 25px;
+            height: 10px;
+            border-top: 2px solid #eee;
+          }
+          .nav > .nav-links {
+            position: absolute;
+            display: block;
+            width: 100%;
+            background-color: #333;
+            height: 0px;
+            transition: all 0.3s ease-in;
+            overflow-y: hidden;
+            top: 50px;
+            left: 0px;
+          }
+          .nav > .nav-links > a {
+            display: block;
+            width: 100%;
+          }
+          .nav > #nav-check:not(:checked) ~ .nav-links {
+            height: 0px;
+          }
+          .nav > #nav-check:checked ~ .nav-links {
+            height: calc(100vh - 50px);
+            overflow-y: auto;
+          }
+
+.hero {
+width: 100%;}
+
+.hero_img img { 
+        max-width: 100%;
+      }
+      .hero_txt {
+       font-size: medium;
+   }
+   .hero_txt h1{
+    font-size: large;}
+
+
+   .hero_txt p{
+    text-align: justify;}
+
+     
+
+ .cards_txt {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size:small;}
+                    
+                       
+ .cards_p{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     text-align: center; }
+
+ .galery_txt { 
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+     font-size:small; }    
+
+.fila {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+                    }
+            
+.form_txt {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+     font-size:small; }     
+    
+     .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        
+
+.formulario{
+    width: 80%;
+    display: flex;
+    flex-direction: column; }
+    
+
+.mapa {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    }
+.mapa iframe {
+    width: 100%;
+}
+}
